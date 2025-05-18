@@ -1,5 +1,5 @@
 {
-    "name": "Bajki-Kindle-Ola",
+    "name": "LLM-To-Kindle",
     "flow": [
         {
             "id": 81,
@@ -1975,7 +1975,7 @@
                             },
                             "mapper": {
                                 "to": [
-                                    "TODO_KINDLE_EMAIL_ADDREDD"
+                                    "TODO_KINDLE_EMAIL_ADDRESS"
                                 ],
                                 "subject": "{{3.title}}",
                                 "contentType": "text",
@@ -1995,7 +1995,7 @@
                                 "references": [],
                                 "priority": "normal",
                                 "headers": [],
-                                "text": ""
+                                "text": "{{3.description}}"
                             },
                             "metadata": {
                                 "designer": {
